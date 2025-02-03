@@ -1,0 +1,19 @@
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de datos SQLite (por defecto Django usa db.sqlite3)
+db.sqlite3
+
+# Archivos de Django (si usas media o staticfiles generados)
+staticfiles/
+media/
+
+# Entorno virtual
+env/
+venv/
+
+# Archivos de configuración de editores/IDEs
+.vscode/
+.idea/
